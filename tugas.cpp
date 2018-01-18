@@ -21,15 +21,24 @@ int main(){
 	cout << "PAKAIAN CASUAL: \n\n";
 	cout << (CASUAL.jenisbahan);
 	CASUAL.contoh("T-Shirt dan Jeans (Kegunaan Untuk : Style Santai)");
-	cout <<"________________________________________________________\n\n";
+	cout <<"_____________________________________________________________\n\n";
 	
 	cout << "PAKAIAN FORMAL: \n\n";
 	cout << (FORMAL.jenisbahan);
 	FORMAL.contoh("Tuxedo dan Gaun (Kegunaan Untuk :  Style Pesta)");
-	cout <<"_______________________________________________________\n\n";
+	cout <<"___________________________________________________________\n\n";
 	
 	cout << "PAKAIAN ETNIS: \n\n";
 	cout << (ETNIS.jenisbahan);
 	ETNIS.contoh("Sarung (Kegunaan Untuk : Acara Adat)");
-	cout <<"____________________________________________\n\n";
+	cout <<"_________________________________________________\n\n";
+}
+
+	void pakaian::model (string pakaian){	
+	cout <<"\n"<<"merk "<<pakaian<<endl;
+}
+	
+	void pakaian::contoh (string berbentuk){
+	cout <<"\n"<<"Contoh Berupa "<<berbentuk<<endl;
+
 }
