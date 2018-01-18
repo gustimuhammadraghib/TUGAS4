@@ -16,5 +16,5 @@ int main(){
 
 	CASUAL.jenisbahan					="Bahan Kain 	: Katun";
 	ETNIS.jenisbahan					="Bahan Kain 	: Rajut";
-	FORMAL.jenisbahan					="Bahan Kain  	: Sifon";
+
 }
